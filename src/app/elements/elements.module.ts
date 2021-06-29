@@ -11,13 +11,7 @@ import { ElementsHomeComponent } from './elements-home/elements-home.component';
     CommonModule,
     ElementsRoutingModule
   ],
-  exports: [
-    ElementsHomeComponent
-  ]
+  exports: []
 })
 export class ElementsModule { }
 
-/*
-line 14 to 16. we are telling inner component ElementsHomeComponent
-that it is allowed to be imported to the outside world
-*/
