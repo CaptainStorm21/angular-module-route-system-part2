@@ -35,3 +35,9 @@ h1, h2, h3, h4, h5
   margin-left: 10px  !important;
   margin-right: 10px  !important;
 }
+
+a:hover {
+  background-color: orangered !important;
+  border-radius: 10px solid lightblue  !important;
+  padding: 10px !important;
+}
