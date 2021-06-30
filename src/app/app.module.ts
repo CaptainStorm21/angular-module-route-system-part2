@@ -19,9 +19,9 @@ import { HomeComponent } from './home/home.component'
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     ElementsModule,
-    CollectionsModule
+    CollectionsModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -30,4 +30,9 @@ export class AppModule { }
 
 /*
 * line 13 to 16 we are importing the entire module directory as an import to allow components use it
+*/
+
+/*
+we move AppRoutingModule to thte bottom because if we leave it to the top
+wild card ** will be loading and reading as if all components are not found
 */
